@@ -1,0 +1,35 @@
+
+.main{
+    background-color: lightgrey;
+    height: calc(100vh - 100px);
+    display: block;
+}
+
+.sectiontop{
+    background-color: #1d1407;
+    color: white;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.sectionbottom{
+    background-color:#00c6ff;
+    color: white;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.contenitore{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}

@@ -1,20 +1,21 @@
+import imgLogo from "../assets/img/dc-logo.png";
 import styles from "./AppHeader.module.css";
 
 function AppHeader () {
    return (
     <header className={styles.Header}>
-        <img src="/src/img/dc-logo.png" alt="" />
+        <img src={imgLogo} alt="" />
         <nav>
             <ul className={styles.ul}>
-              <a href=""> <li>link</li></a>
-              <a href=""> <li>link</li></a>
-              <a href=""> <li>link</li></a>
-              <a href=""> <li>link</li></a>
-              <a href=""> <li>link</li></a>
-              <a href=""> <li>link</li></a>
-              <a href=""> <li>link</li></a>
-              <a href=""> <li>link</li></a>
-              <a href=""> <li>link</li></a>
+             <li><a href="">Link</a></li>
+             <li><a href="">Link</a></li>
+             <li><a href="">Link</a></li>
+             <li><a href="">Link</a></li>
+             <li><a href="">Link</a></li>
+             <li><a href="">Link</a></li>
+             <li><a href="">Link</a></li>
+             <li><a href="">Link</a></li>
+             <li><a href="">Link</a></li>
             </ul>
         </nav>
     </header>
