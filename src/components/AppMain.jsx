@@ -4,11 +4,27 @@ import image2 from "../assets/img/buy-comics-merchandise.png"
 import image3 from "../assets/img/buy-comics-shop-locator.png"
 import image4 from "../assets/img/buy-comics-subscriptions.png"
 import image5 from "../assets/img/buy-dc-power-visa.svg"
+import comics from "./comics"
 
 function AppMain () {
   return (
     <main className={styles.main}>
-        <section className={styles.sectiontop}> -- Content go here -- !</section>
+        <section className={styles.sectiontop}>
+         {comics.map ((comic) => {
+          return (
+          <div key = {comic.id} className= {styles.comiccard}>
+            <div className={styles.comicImage}>
+               <img src= {comic.thumb} alt={comic.title} />
+            </div>
+            <h3 className={styles.h3}>{comic.title}</h3>
+            <p className={styles.p}>{comic.price}</p>
+          </div>
+          );
+         })}
+        </section>
+      
+      
+      
         <section className={styles.sectionbottom}>
             <div className={styles.contenitore}>
                 <img src={image1} alt="" style={{ width: "30px", height: "auto" }}/>

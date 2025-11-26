@@ -1,0 +1,47 @@
+.p{
+    color:white;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+
+.section{
+    background-image: url(../assets/img/footer-bg.jpg) ;
+    padding: 50px 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+
+}
+
+
+.container{
+    max-width: 1200px;
+    padding-left: 150px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+
+
+
+.ul{
+    list-style-type: none;
+    margin: 10px 0;
+    color: grey;
+}
+
+.ul li{
+ text-align: left;
+ margin-bottom: 5px;
+ font-size: 1rem;
+}
+
+.dc{
+    display: flex;
+}
