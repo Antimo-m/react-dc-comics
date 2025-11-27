@@ -19,12 +19,18 @@
 
 
 .container{
-    max-width: 1200px;
-    padding-left: 150px;
-    display: flex;
-    justify-content: space-between;
-    gap: 50px;
-    flex-wrap: wrap;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 70px;
+   justify-content: center;
+  
+}
+   
+
+
+.col{
+    width: calc(100% / 6);
+
 }
 
 
@@ -45,3 +51,4 @@
 .dc{
     display: flex;
 }
+
